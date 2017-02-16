@@ -19,6 +19,11 @@
 		1A03F4FA1E52AF0800FFD436 /* FSRecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A03F4F91E52AF0800FFD436 /* FSRecommendVC.m */; };
 		1A03F5011E52AF4100FFD436 /* FSFindVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A03F5001E52AF4100FFD436 /* FSFindVC.m */; };
 		1A03F5051E52AF5900FFD436 /* FSMyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A03F5041E52AF5900FFD436 /* FSMyVC.m */; };
+		9E1F8D431E55303100DDE2F0 /* FSMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1F8D421E55303100DDE2F0 /* FSMenuButton.m */; };
+		9E8E42CF1E54416500ADCD65 /* NHLBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E42C41E54416500ADCD65 /* NHLBView.m */; };
+		9E8E42D01E54416500ADCD65 /* NHLBViewPicture.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E42C71E54416500ADCD65 /* NHLBViewPicture.m */; };
+		9E8E42D11E54416500ADCD65 /* NHLBViewPictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E42C91E54416500ADCD65 /* NHLBViewPictureCell.m */; };
+		9E8E42D71E5443D300ADCD65 /* FSNHMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8E42D61E5443D300ADCD65 /* FSNHMenuView.m */; };
 		F4ED426BCB32B109CDDD9674 /* libPods-FoodStory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C342BB9BF21B81AF77ED8BF3 /* libPods-FoodStory.a */; };
 		F73835E374AF6E312BE883C4 /* libPods-FoodStoryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A898A43F4B01A3BDFD4FFF7 /* libPods-FoodStoryTests.a */; };
 /* End PBXBuildFile section */
@@ -73,6 +78,16 @@
 		6A898A43F4B01A3BDFD4FFF7 /* libPods-FoodStoryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoodStoryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D213F7B915C99BE0EED25C8 /* Pods-FoodStory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodStory.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodStory/Pods-FoodStory.release.xcconfig"; sourceTree = "<group>"; };
 		951DE6641D4C69125131FC6A /* libPods-FoodStoryUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoodStoryUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1F8D411E55303100DDE2F0 /* FSMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMenuButton.h; sourceTree = "<group>"; };
+		9E1F8D421E55303100DDE2F0 /* FSMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMenuButton.m; sourceTree = "<group>"; };
+		9E8E42C31E54416500ADCD65 /* NHLBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHLBView.h; sourceTree = "<group>"; };
+		9E8E42C41E54416500ADCD65 /* NHLBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHLBView.m; sourceTree = "<group>"; };
+		9E8E42C61E54416500ADCD65 /* NHLBViewPicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHLBViewPicture.h; sourceTree = "<group>"; };
+		9E8E42C71E54416500ADCD65 /* NHLBViewPicture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHLBViewPicture.m; sourceTree = "<group>"; };
+		9E8E42C81E54416500ADCD65 /* NHLBViewPictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHLBViewPictureCell.h; sourceTree = "<group>"; };
+		9E8E42C91E54416500ADCD65 /* NHLBViewPictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHLBViewPictureCell.m; sourceTree = "<group>"; };
+		9E8E42D51E5443D300ADCD65 /* FSNHMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSNHMenuView.h; sourceTree = "<group>"; };
+		9E8E42D61E5443D300ADCD65 /* FSNHMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSNHMenuView.m; sourceTree = "<group>"; };
 		C342BB9BF21B81AF77ED8BF3 /* libPods-FoodStory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoodStory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -235,6 +250,7 @@
 			children = (
 				1A03F4F81E52AF0800FFD436 /* FSRecommendVC.h */,
 				1A03F4F91E52AF0800FFD436 /* FSRecommendVC.m */,
+				9E8E42C11E54416500ADCD65 /* View */,
 			);
 			path = "推荐首页";
 			sourceTree = "<group>";
@@ -301,6 +317,49 @@
 				951DE6641D4C69125131FC6A /* libPods-FoodStoryUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E8E42C11E54416500ADCD65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E8E42D41E54416F00ADCD65 /* FS_MenuView */,
+				9E8E42C21E54416500ADCD65 /* FS_NHLBView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E8E42C21E54416500ADCD65 /* FS_NHLBView */ = {
+			isa = PBXGroup;
+			children = (
+				9E8E42C31E54416500ADCD65 /* NHLBView.h */,
+				9E8E42C41E54416500ADCD65 /* NHLBView.m */,
+				9E8E42C51E54416500ADCD65 /* NHLBView */,
+			);
+			name = FS_NHLBView;
+			path = NHLBView;
+			sourceTree = "<group>";
+		};
+		9E8E42C51E54416500ADCD65 /* NHLBView */ = {
+			isa = PBXGroup;
+			children = (
+				9E8E42C61E54416500ADCD65 /* NHLBViewPicture.h */,
+				9E8E42C71E54416500ADCD65 /* NHLBViewPicture.m */,
+				9E8E42C81E54416500ADCD65 /* NHLBViewPictureCell.h */,
+				9E8E42C91E54416500ADCD65 /* NHLBViewPictureCell.m */,
+			);
+			name = NHLBView;
+			path = "横向";
+			sourceTree = "<group>";
+		};
+		9E8E42D41E54416F00ADCD65 /* FS_MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				9E8E42D51E5443D300ADCD65 /* FSNHMenuView.h */,
+				9E8E42D61E5443D300ADCD65 /* FSNHMenuView.m */,
+				9E1F8D411E55303100DDE2F0 /* FSMenuButton.h */,
+				9E1F8D421E55303100DDE2F0 /* FSMenuButton.m */,
+			);
+			name = FS_MenuView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,7 +439,7 @@
 				TargetAttributes = {
 					1A03F4B21E52A8FF00FFD436 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 963K4QPLZH;
+						DevelopmentTeam = UEL539JU95;
 						ProvisioningStyle = Automatic;
 					};
 					1A03F4CB1E52A90000FFD436 = {
@@ -391,7 +450,7 @@
 					};
 					1A03F4D61E52A90000FFD436 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 963K4QPLZH;
+						DevelopmentTeam = UEL539JU95;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1A03F4B21E52A8FF00FFD436;
 					};
@@ -588,9 +647,14 @@
 			files = (
 				1A03F4BB1E52A8FF00FFD436 /* AppDelegate.m in Sources */,
 				1A03F4B81E52A8FF00FFD436 /* main.m in Sources */,
+				9E8E42D71E5443D300ADCD65 /* FSNHMenuView.m in Sources */,
+				9E8E42D01E54416500ADCD65 /* NHLBViewPicture.m in Sources */,
 				1A03F4F71E52AEF800FFD436 /* FSBaseVC.m in Sources */,
 				1A03F4FA1E52AF0800FFD436 /* FSRecommendVC.m in Sources */,
+				9E8E42CF1E54416500ADCD65 /* NHLBView.m in Sources */,
 				1A03F5051E52AF5900FFD436 /* FSMyVC.m in Sources */,
+				9E1F8D431E55303100DDE2F0 /* FSMenuButton.m in Sources */,
+				9E8E42D11E54416500ADCD65 /* NHLBViewPictureCell.m in Sources */,
 				1A03F4F31E52ADF500FFD436 /* FSAPPConfigure.m in Sources */,
 				1A03F5011E52AF4100FFD436 /* FSFindVC.m in Sources */,
 			);
@@ -679,7 +743,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -720,7 +784,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -732,7 +796,7 @@
 			baseConfigurationReference = 22D0BD057B4F9EA5A97A56EC /* Pods-FoodStory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 963K4QPLZH;
+				DEVELOPMENT_TEAM = UEL539JU95;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FoodStory/PrefixHeader.pch";
 				INFOPLIST_FILE = FoodStory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -747,7 +811,7 @@
 			baseConfigurationReference = 8D213F7B915C99BE0EED25C8 /* Pods-FoodStory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 963K4QPLZH;
+				DEVELOPMENT_TEAM = UEL539JU95;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FoodStory/PrefixHeader.pch";
 				INFOPLIST_FILE = FoodStory/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -789,7 +853,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 632DB221FEECABC489BD5297 /* Pods-FoodStoryUITests.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 963K4QPLZH;
+				DEVELOPMENT_TEAM = UEL539JU95;
 				INFOPLIST_FILE = FoodStoryUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coffee.FoodStory.www.FoodStoryUITests;
@@ -802,7 +866,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33D892734328B6563B3E2BC4 /* Pods-FoodStoryUITests.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 963K4QPLZH;
+				DEVELOPMENT_TEAM = UEL539JU95;
 				INFOPLIST_FILE = FoodStoryUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coffee.FoodStory.www.FoodStoryUITests;
