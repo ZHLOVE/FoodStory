@@ -63,6 +63,7 @@
      * btn的个数 必须跟 title的个数 相对应
      * title字体颜色可以不设置，默认为黑色，API：
      * initWithtitleArray:(NSArray <NSString *>*)titleArray array:(NSArray <FSMenuButton *>*)buttonArray;
+     *
      */
     
     FSMenuButton *btn1 = [[FSMenuButton alloc]initWithImage:[UIImage imageNamed:@"清淡"] and:^(FSMenuButton *menuButton) {
